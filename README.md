@@ -6,9 +6,8 @@
 yarn --dev
 ```
 
-## Create a .env file and add the environments variables. Use .env.local as example.
-
-Use `root` database user as default.
+## Create a .env file and add the environments variables.
+Use .env.local as example. Use `root` database user as default.
 
 ```bash
 cp .env.local .env
