@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  database:
+  mysql-database:
     image: mysql
     ports:
       - ${DATABASE_PORT}:3306
@@ -11,7 +11,7 @@ services:
     volumes:
       - ./.db_data:/var/lib/mysql
 
-  test-database:
+  test-mysql-database:
     image: mysql
     ports:
       - ${TEST_DATABASE_PORT}:3306

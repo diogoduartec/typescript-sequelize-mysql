@@ -9,6 +9,7 @@ export default {
   // coverageDirectory: "coverage",
   // coverageProvider: "v8",
   preset: "ts-jest",
-  rootDir: "src",
+  rootDir: "./",
   testEnvironment: "node",
+  testMatch: ["<rootDir>/tests/**/*.test.ts"],
 };

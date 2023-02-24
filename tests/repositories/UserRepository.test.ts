@@ -1,6 +1,6 @@
-import { UserModel } from "../../database/models/UserModel";
-import { User } from "../../entities/User";
-import UserRepository from "../UserRepository";
+import { UserModel } from "../../src/database/models/UserModel";
+import { User } from "../../src/entities/User";
+import UserRepository from "../../src/repositories/UserRepository";
 
 beforeEach(async () => {
   await UserModel.sync({ force: true });
